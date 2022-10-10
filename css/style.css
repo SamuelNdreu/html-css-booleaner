@@ -4,12 +4,13 @@ header{
     height: 150px;
     background-repeat: repeat-x;
     background-position: left top;
-
+    text-align: left;
     
 }
 .main-logo{
-    height: 50px;
     
+    height: 200px;
+    width: 242px;
     
 }
 .main-title{
@@ -35,4 +36,8 @@ header{
 }
 .highlighted-text{
     background-color: yellow;
+}
+
+.unorderedlist{
+    margin-left: -28px;
 }

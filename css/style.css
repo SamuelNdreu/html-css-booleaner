@@ -1,8 +1,17 @@
-.header-logo-background{
+header{
     background-color:#4EA0FF;
+    background-image:url(../img/pattern.png) ;
+    height: 150px;
+    background-repeat: repeat-x;
+    background-position: left top;
+
     
 }
-
+.main-logo{
+    height: 50px;
+    
+    
+}
 .main-title{
     font-size: 2.4rem;
 }
@@ -18,4 +27,12 @@
 
 .images-of-tim{
     padding-top: 20px;
+}
+
+.lorem-bold{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.highlighted-text{
+    background-color: yellow;
 }

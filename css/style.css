@@ -1,3 +1,4 @@
+
 header{
     background-color:#4EA0FF;
     background-image:url(../img/pattern.png) ;
@@ -58,4 +59,28 @@ header{
 
 .colored_row {
     background-color: rgb(134, 227, 255);
+}
+
+#interesting-links{
+    color: grey;
+    font-size: 1.2rem;
+}
+
+#monitor-pink{
+    background-image: url(../img/monitor.jpg);
+    height: 207px;
+    width: 311px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 2rem;
+    color: white;
+}
+
+#graph{
+    background-image: url(../img/graph.jpg);
+    height: 207px;
+    width: 311px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: white;
 }

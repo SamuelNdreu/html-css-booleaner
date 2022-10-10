@@ -1,4 +1,7 @@
 
+body{
+    background-image:url(../img/pattern-background.jpg);
+}
 header{
     background-color:#4EA0FF;
     background-image:url(../img/pattern.png) ;
@@ -8,6 +11,49 @@ header{
     text-align: left;
     
 }
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+
+
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+/* CREATION SEARCH BAR/TEST */
+
+
+
 .main-logo{
     
     height: 200px;
@@ -15,33 +61,66 @@ header{
     
 }
 .main-title{
-    font-size: 2.4rem;
+    font-size: 2.7rem;
+    text-align: center;
+    color: white;
 }
 
 #booleaners{
-    color: #4EA0FF;
+    color: #e100ff;
+    
 }
     
 .grey-titles{
-    color: grey;
+    color: rgb(251, 251, 251);
     font-size: 1rem;
+    
+    
 }
 
 .images-of-tim{
     padding-top: 20px;
-    background-size: cover;
+    background-size:auto;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.picture-infos{
+    color: white;
 }
 
 .lorem-bold{
     font-weight: 500;
     font-size: 1.1rem;
+    text-align: center;
+    color: white;
 }
 .highlighted-text{
-    background-color: yellow;
+    background-color: rgb(88, 90, 189);
+    color: white;
+}
+
+.button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
 }
 
 .unorderedlist{
     margin-left: -28px;
+    color: #ddd;
+    background-color: #35393c;
+    text-decoration:solid
 }
 
 #tr_head {
@@ -57,13 +136,23 @@ header{
     text-align: left;
 }
 
+.colored_row-in-white{
+    background-color: #ddd;
+}
+
 .colored_row {
     background-color: rgb(134, 227, 255);
 }
 
+#paragraph-u-table{
+    color: white;
+}
+
 #interesting-links{
-    color: grey;
-    font-size: 1.2rem;
+    color: rgb(255, 0, 230);
+    font-size: 1.3rem;
+    background-color: #35393c;
+    
 }
 
 #monitor-pink{
@@ -74,6 +163,7 @@ header{
     padding-left: 10px;
     font-size: 2rem;
     color: white;
+     
 }
 
 #graph{
@@ -84,3 +174,4 @@ header{
     font-size: 2rem;
     color: white;
 }
+

@@ -28,6 +28,7 @@ header{
 
 .images-of-tim{
     padding-top: 20px;
+    background-size: cover;
 }
 
 .lorem-bold{
@@ -40,4 +41,21 @@ header{
 
 .unorderedlist{
     margin-left: -28px;
+}
+
+#tr_head {
+    background-color: rgb(13, 85, 168);
+}
+
+.column_1, .column_2 {
+    width: 23%;
+    height: 30px;
+}
+
+.column_1, .column_2, .column_3 {
+    text-align: left;
+}
+
+.colored_row {
+    background-color: rgb(134, 227, 255);
 }

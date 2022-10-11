@@ -49,6 +49,13 @@ header{
     color: white;
 }
 
+/* DELETED TABLE BORDER */
+
+table{
+    border-collapse: collapse;
+}
+
+
 .column_1, .column_2 {
     width: 23%;
     height: 30px;
